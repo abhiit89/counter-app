@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Counter extends Component {
+class  Counter extends Component {
 
     render() {
         // console.log(this.props);
