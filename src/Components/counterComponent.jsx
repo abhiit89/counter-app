@@ -2,6 +2,11 @@ import React, {Component} from 'react';
 
 class  Counter extends Component {
 
+    constructor() {
+        super();
+        console.log(`Counter-Component-Constructor Called`);
+    }
+
     render() {
         // console.log(this.props);
         return (

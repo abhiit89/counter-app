@@ -3,6 +3,11 @@ import Counter from './counterComponent'
 
 class Counters extends Component {
 
+    constructor() {
+        super();
+        console.log(`Counters-Component-Constructor Called`);
+    }
+
     render() {
         return (
             <div>

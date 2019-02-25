@@ -14,8 +14,13 @@ class App extends Component {
         ]
     }
 
+    constructor() {
+        super();
+        console.log(`App-Component-Constructor Called`);
+    }
+
     handleDelete = (counterId) => {
-        const counters = this.state.counters.filter((counter)=> counter.id !== counterId);
+        const counters = this.state.counters.filter((counter) => counter.id !== counterId);
         // this.setState({counters:counters});
         this.setState({counters}); // key and values to be passed is same. Using Object de structuring
     }
